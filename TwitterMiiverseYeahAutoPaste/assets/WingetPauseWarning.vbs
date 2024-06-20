@@ -1,0 +1,1 @@
+x=msgbox("Before you can continue, please make sure the package that just opened in the Microsoft Store is installed. DO NOT CLICK 'OK' UNTIL YOU HAVE CONFIRMED 'App Installer' IS INSTALLED! (it's usually built into modern versions of Windows, so you might not see any options, but we're just making sure)", 0+48, "SLOW DOWN!!!")

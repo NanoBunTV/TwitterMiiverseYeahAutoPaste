@@ -9,7 +9,7 @@
 
 Set-Location temp-install
 $WorkingDirName = Split-Path -Path $PWD -Leaf -Resolve
-if ($WorkingDirName -eq 'temp-installl') {
+if ($WorkingDirName -eq 'temp-install') {
     Remove-Item * -Recurse -Force
 }
 else {

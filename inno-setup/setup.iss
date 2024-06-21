@@ -48,9 +48,6 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 [Files]
 Source: "..\_Main\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
-[Dirs]
-Name: "{app}\assets"; Attribs: hidden
-
 [Run]
 Filename: "powershell"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File .\InstallWingetAndPrerequisites.ps1"; WorkingDir: "{app}\assets"; Flags: shellexec waituntilterminated; StatusMsg: "Installing the latest release of Powershell..."
 Filename: "pwsh"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File .\WDExceptionSetup.ps1"; WorkingDir: "{app}\assets"; Flags: shellexec waituntilterminated runhidden; StatusMsg: "Downloading ""cmdow.exe"" and telling Windows Defender to shut up about it..."

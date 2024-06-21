@@ -46,16 +46,13 @@ OutputDir=output
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "..\TwitterMiiverseYeahAutoPaste\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\_Main\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Dirs]
 Name: "{app}\assets"; Attribs: hidden
 
 [Run]
-Filename: "cmd"; Parameters: "/c start """" ""ms-windows-store://pdp?productid=9nblggh4nns1"""; Flags: shellexec waituntilterminated runhidden; StatusMsg: "Waiting for user confirmation..."
-Filename: "WingetPauseWarning.vbs"; WorkingDir: "{app}\assets"; Flags: shellexec waituntilterminated; StatusMsg: "Waiting for user confirmation..."
-Filename: "WingetPauseWarning2.vbs"; WorkingDir: "{app}\assets"; Flags: shellexec waituntilterminated; StatusMsg: "Waiting for user confirmation..."
-Filename: "winget"; Parameters: "install --id Microsoft.Powershell --source winget --accept-package-agreements --accept-source-agreements"; Flags: shellexec waituntilterminated runhidden; StatusMsg: "Installing the latest release of Powershell..."
+Filename: "powershell"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File .\InstallWingetAndPrerequisites.ps1"; WorkingDir: "{app}\assets"; Flags: shellexec waituntilterminated; StatusMsg: "Installing the latest release of Powershell..."
 Filename: "pwsh"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File .\WDExceptionSetup.ps1"; WorkingDir: "{app}\assets"; Flags: shellexec waituntilterminated runhidden; StatusMsg: "Downloading ""cmdow.exe"" and telling Windows Defender to shut up about it..."
 
 [UninstallRun]

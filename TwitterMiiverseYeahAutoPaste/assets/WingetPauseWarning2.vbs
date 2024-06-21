@@ -1,1 +1,0 @@
-x=msgbox("It's installed, RIGHT? Just double checking, because this setup will NOT complete successfully if its not installed.", 0+48, ":3")

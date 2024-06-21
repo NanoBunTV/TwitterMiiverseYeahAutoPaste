@@ -20,14 +20,5 @@
 cd ..
 cd ..
 cd assets
-start "" "ms-windows-store://pdp?productid=9nblggh4nns1"
-start "" "WingetPauseWarning.vbs"
-color e
-cls
-echo -------------------------------------------------------------------------------------
-echo    DO NOT PRESS ENTER until you have installed the package that has just appeared!
-echo                    (if it was already installed, just press enter)                   
-echo -------------------------------------------------------------------------------------
-pause
-elevate winget install --id Microsoft.Powershell --source winget --accept-package-agreements --accept-source-agreements --wait
+elevate powershell -NoProfile -ExecutionPolicy Bypass -File .\InstallWingetAndPrerequisites.ps1
 exit

@@ -1,2 +1,3 @@
 inno-setup/output/
 .vscode/
+*.code-workspace

@@ -42,8 +42,8 @@ VersionInfoProductTextVersion=v{#MyAppVersion}
 VersionInfoOriginalFileName=Setup_TwitterMiiverseYeahAutoPaste_v{#MyAppVersion}
 OutputDir=output
 SetupIconFile=setup-icon.ico
-LicenseFile=LICENSE.rtf
-InfoBeforeFile=README.rtf
+LicenseFile=setup-license.rtf
+InfoBeforeFile=setup-readme.rtf
 LanguageDetectionMethod=none
 UninstallDisplayIcon={uninstallexe},5
 

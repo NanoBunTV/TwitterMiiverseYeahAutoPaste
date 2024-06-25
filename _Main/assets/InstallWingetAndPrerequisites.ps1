@@ -1,11 +1,13 @@
-# -------------------------------------------------------------------------
-# This is a small portion of code obtained from "winutil" by ChrisTitusTech
+# ----------------------------------------------------------------------
+# This script contains portions of code from "winutil" by ChrisTitusTech
 # Copyright (c) 2022 Chris Titus
 # https://github.com/ChrisTitusTech/winutil
 # 
 # Licensed under the MIT License
 # https://opensource.org/license/mit
-# -------------------------------------------------------------------------
+# ----------------------------------------------------------------------
+
+New-Item -Name "temp-install" -ItemType "directory"
 
 Set-Location temp-install
 $WorkingDirName = Split-Path -Path $PWD -Leaf -Resolve
@@ -88,7 +90,8 @@ Start-Sleep -Seconds 1
 Set-Location temp-install
 $WorkingDirName = Split-Path -Path $PWD -Leaf -Resolve
 if ($WorkingDirName -eq 'temp-install') {
-    Remove-Item * -Recurse -Force
+    Set-Location ..\
+    Remove-Item 'temp-install' -Recurse -Force
 	winget install --id Microsoft.Powershell --source winget --accept-package-agreements --accept-source-agreements
 }
 else {

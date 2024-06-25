@@ -5,7 +5,7 @@
 #define MyAppPublisherURL "https://nanobun.tv"
 #define MyAppSupportURL "https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste/issues"
 #define MyAppUpdatesURL "https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste/releases"
-#define MyAppCopyright "Copyright (C) 2024 NanoBunTV"
+#define MyAppCopyright "Copyright (c) 2024 NanoBunTV"
 
 [Setup]
 AppId={{DECE8429-8DBC-4DB0-800C-CC3FE38D41D6}
@@ -33,14 +33,19 @@ AllowCancelDuringInstall=False
 ShowLanguageDialog=no
 AppContact=contact@nanobun.tv
 VersionInfoVersion={#MyAppVersion}
-VersionInfoCompany={#MyAppPublisher}
-VersionInfoDescription=Lorem ipsum 1
+VersionInfoCompany={#MyAppPublisher}     
+VersionInfoDescription=fuck you elon :3
 VersionInfoCopyright={#MyAppCopyright}
 VersionInfoProductName={#MyAppName}
 VersionInfoProductVersion={#MyAppVersion} 
 VersionInfoProductTextVersion=v{#MyAppVersion}    
 VersionInfoOriginalFileName=Setup_TwitterMiiverseYeahAutoPaste_v{#MyAppVersion}
 OutputDir=output
+SetupIconFile=setup-icon.ico
+LicenseFile=LICENSE.rtf
+InfoBeforeFile=README.rtf
+LanguageDetectionMethod=none
+UninstallDisplayIcon={uninstallexe},5
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"

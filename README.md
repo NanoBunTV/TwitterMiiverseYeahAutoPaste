@@ -1,6 +1,8 @@
 # Twitter Miiverse Yeah! Auto Paste
 
-[![License Badge](https://img.shields.io/badge/%C2%A9_license-AGPL--3.0_or_later-red?style=flat&color=663366&link=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Fagpl-3.0.html)](https://www.gnu.org/licenses/agpl-3.0.html) [![GitHub Release](https://img.shields.io/github/v/release/NanoBunTV/TwitterMiiverseYeahAutoPaste?style=flat&logo=github&color=347d39&link=https%3A%2F%2Fgithub.com%2FNanoBunTV%2FTwitterMiiverseYeahAutoPaste%2Freleases)](https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste/releases) [![Ko-fi Link](https://img.shields.io/badge/donate-ko--fi-ff5e5b?style=flat&logo=kofi&logoColor=white&link=https%3A%2F%2Fko-fi.com%2Fnanobuntv)](https://ko-fi.com/nanobuntv)
+[![NanoBunTV Badge](https://img.shields.io/badge/created_by-NanoBunTV-ff5dc2?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB2aWV3Qm94PSIwIDAgMzU4IDI4OSIgaWQ9IkJ1bkhhdFNWRyIgZGF0YS1uYW1lPSJCdW5IYXRTVkciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BCiAgPGcgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIwIiBpZD0iQnVuSGF0RGF0YSIgZGF0YS1uYW1lPSJCdW5IYXREYXRhIj4KICAgIDxwYXRoIGQ9Im03NiAxNjUtNSAyN2MtNiAxOSAzIDMyIDE4IDQwIDEzIDggMjcgMTEgNDIgMTMgMzYgNiA3MiA1IDEwOC00IDEzLTMgMjctNyAzOC0xNXMxNi0yMCAxMi0zM2wtNi0yMSAxMyA0YzE0IDcgMjggMTUgMzkgMjggNyA5IDEyIDE4IDkgMzAtMSA4LTYgMTQtMTIgMTktMTIgMTAtMjcgMTYtNDMgMjFhNDYyIDQ2MiAwIDAgMS0yNDctNWMtOS01LTE3LTEwLTIzLTE3LTE3LTE3LTE3LTM3LTEtNTUgMTAtMTEgMjMtMTkgMzgtMjVsMjAtN1oiLz4KICAgIDxwYXRoIGQ9Im0yNzAgODAtMiAyNWMtMiAyMS0zIDQxIDEgNjEgMCA0LTEgNi00IDgtNyA1LTE2IDgtMjUgMTAtMzYgOC03MyA5LTEwOSAyLTEyLTItMjQtNi0zNC0xNC01LTQtNy05LTctMTUgMy0yOSAwLTU2LTQtODR2LTZjNyA1IDEzIDggMjAgMTEgMTcgNiAzNSA5IDUzIDExIDI3IDIgNTQgMiA4MS0yIDktMSAxOS0zIDI4LTdoMloiLz4KICAgIDxwYXRoIGQ9Ik0xOTMgNzZjLTIzIDAtNDYtMS02OC03LTEyLTMtMjMtNy0zMy0xNGwtNy03Yy01LTgtNC0xNiA0LTIyIDctNSAxNS03IDI0LTkgMTYtMyAzMy0yIDQ5LTEgMjEgMiA0MyA1IDY0IDEwIDEyIDMgMjUgNyAzNiAxMyA1IDIgOSA1IDExIDEwIDQgNiAzIDExLTMgMTUtNyA1LTE2IDctMjUgOS0xOCAzLTM1IDMtNTIgM1pNNzkgMTI4bC0yIDIwYzAgMiAwIDMtMiAzbC0zNiAxMmMtMiAxLTMgMi0zLTEtNi0yMi0xNy00My0yMy02NkM4IDc5IDMgNjMgMSA0NVYyMmwxLTMgMyAyYzkgOCAxNSAxOCAyMCAyOWEyNDAgMjQwIDAgMCAxIDE3IDkwYzAgMiAxIDIgMyAyIDEwIDAgMTAgMCAxMC0xMC0xLTI4LTUtNTUtMTYtODFDMzMgMzQgMjQgMTkgOSA4IDcgNiA3IDYgOSA0YzUtNSA2LTUgMTItMSAxMCA2IDE3IDE1IDI0IDI1IDE3IDI2IDI5IDU1IDMzIDg3bDEgMTNaTTM1NyAyOGMzIDE0IDEgMjctMiA0MWE1MzUgNTM1IDAgMCAxLTM2IDEwNCAxMjEzIDEyMTMgMCAwIDAtMzktMjEgMTkzIDE5MyAwIDAgMSA0Mi0xMjdsMTctMTRjNC0yIDEwIDAgMTIgNGwtMSAyYy0yMyAxOC0zMyA0NC00MCA3MS00IDIwLTYgNDAtNyA2MCAwIDMgMSA0IDQgNGw4LTFjMi0xIDEtNSAxLTggMS0yNiA1LTUyIDE0LTc2IDUtMTQgMTMtMjcgMjQtMzdsMy0yWk04NyAxODJsMTggMTFhMjgzIDI4MyAwIDAgMCAxMzcgNWMxMC0zIDIwLTYgMjgtMTIgMi0xIDMgMCAzIDJsMyAxMGMyIDUgMSAxMC0zIDE0LTYgNi0xNCA5LTIxIDEyYTI3MCAyNzAgMCAwIDEtMTE5IDhjLTEzLTItMjYtNS0zOC0xMmwtMTAtOGMtMi00LTMtNy0yLTExbDQtMTlaIi8%2BCiAgPC9nPgo8L3N2Zz4%3D&logoColor=ffffff&link=https%3A%2F%2Fnanobun.tv)](https://nanobun.tv) [![License Badge](https://img.shields.io/badge/%C2%A9_license-AGPL--3.0_or_later-red?style=flat&color=663366&link=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Fagpl-3.0.html)](https://www.gnu.org/licenses/agpl-3.0.html) [![GitHub Release Badge](https://img.shields.io/github/v/release/NanoBunTV/TwitterMiiverseYeahAutoPaste?style=flat&logo=github&color=347d39&link=https%3A%2F%2Fgithub.com%2FNanoBunTV%2FTwitterMiiverseYeahAutoPaste%2Freleases)](https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste/releases) [![Ko-fi Badge](https://img.shields.io/badge/donate-ko--fi-ff5e5b?style=flat&logo=kofi&logoColor=white&link=https%3A%2F%2Fko-fi.com%2Fnanobuntv)](https://ko-fi.com/nanobuntv)
+
+[![Readme Thumbnail](.github/ReadmeThumbnail.png)](https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste)
 
 <h3 align="center">Automatically paste an image of your choosing to any text box that allows pasting an image to it, such as replying to someone on Twitter / X, whenever you use a macro or hotkey from your keyboard, mouse, Elgato Stream Deck etc.</h3>
 
@@ -24,6 +26,12 @@
 
 For more "Yeah!" react images to use, check out the `random-miiverse-yeah-images` folder in this repository. This folder is not included during setup.
 
+---
+
+</br>
+<details>
+<summary><b>License information and all that silly legal stuff</b> <i>(click to reveal)</i></summary>
+
 ## License information and all that silly legal stuff
 
 Most of this project is licensed under [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) or later, unless otherwise stated per the following exceptions.
@@ -36,6 +44,11 @@ Most of this project is licensed under [AGPL-3.0](https://www.gnu.org/licenses/a
 - I do not own any of the images in the `random-miiverse-yeah-images` folder. The images are property of their respective owners and/or artists. I downloaded all of these images from random places online.
 
 If you are the owner of any content in this repository that you wish to be removed, send an email to [contact@nanobun.tv](mailto:contact@nanobun.tv) with clear proof that you are the owner of the content and the reason it needs to be removed.
+
+</details>
+</br>
+<details>
+<summary><b>Somewhat "Manual" Installation</b> <i>(click to reveal)</i></summary>
 
 ## Somewhat "Manual" Installation
 
@@ -54,3 +67,14 @@ If you don't trust, or otherwise don't want to use setup.exe (which you can view
 6. Replace any PNG in the main folder with whatever image you want to use instead! The script is specifically expecting a file named `yeah0.png`, but obviously with a different number at the end (if you need a good file conversion software, check out [this open source file converter tool](https://file-converter.io), it's really good).
 
 7. If you want to have more than three hotkeys so you can use all your favorite Yeah! reaction images, run `CREATE Additional Script.bat` in the TOOLS folder.
+
+</details>
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]:
+    To add line breaks within a footnote, prefix new lines with 2 spaces.
+    This is a second line.

@@ -15,7 +15,6 @@
 - **Powershell 7.4** or newer _(will install itself during either of the installation methods below)_
 
 > [!WARNING]
-
 > **If you are using any anti-virus software, please disable it during installation, and exclude the folder that contains these files before you re-enable the anti-virus.** This is required by the tool [Cmdow](https://ritchielawrence.github.io/cmdow), which is not included in this repository, but is instead downloaded during setup. For more info about why this anti-virus exception is necessary, read [this](https://ritchielawrence.github.io/cmdow/#is-cmdow-malware).
 
 ## ▶ <ins>**Automatic Installation**</ins> ◀

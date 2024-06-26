@@ -11,8 +11,12 @@
 ## Requirements
 
 - **Windows 10** or newer _(sorry linux users)_
+
 - **Powershell 7.4** or newer _(will install itself during either of the installation methods below)_
-- **If you are using any anti-virus software, please disable it during installation, and exclude the folder that contains these files before you re-enable the anti-virus.** This is required by the tool [Cmdow](https://ritchielawrence.github.io/cmdow), which is not included in this repository, but is instead downloaded during setup. For more info about why this anti-virus exception is necessary, read [this](https://ritchielawrence.github.io/cmdow/#is-cmdow-malware).
+
+> [!WARNING]
+
+> **If you are using any anti-virus software, please disable it during installation, and exclude the folder that contains these files before you re-enable the anti-virus.** This is required by the tool [Cmdow](https://ritchielawrence.github.io/cmdow), which is not included in this repository, but is instead downloaded during setup. For more info about why this anti-virus exception is necessary, read [this](https://ritchielawrence.github.io/cmdow/#is-cmdow-malware).
 
 ## ▶ <ins>**Automatic Installation**</ins> ◀
 
@@ -69,12 +73,3 @@ If you don't trust, or otherwise don't want to use setup.exe (which you can view
 7. If you want to have more than three hotkeys so you can use all your favorite Yeah! reaction images, run `CREATE Additional Script.bat` in the TOOLS folder.
 
 </details>
-
-Here is a simple footnote[^1].
-
-A footnote can also have multiple lines[^2].
-
-[^1]: My reference.
-[^2]:
-    To add line breaks within a footnote, prefix new lines with 2 spaces.
-    This is a second line.

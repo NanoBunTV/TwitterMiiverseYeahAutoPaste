@@ -76,4 +76,6 @@ If you don't trust, or otherwise don't want to use setup.exe (which you can view
 
 7. If you want to have more than three hotkeys so you can use all your favorite Yeah! reaction images, run `CREATE Additional Script.bat` in the TOOLS folder.
 
+For more "Yeah!" react images to use, check out the `random-miiverse-yeah-images` folder in this repository. This folder is not included during setup.
+
 </details>

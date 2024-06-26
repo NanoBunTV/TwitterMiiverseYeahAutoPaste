@@ -7,7 +7,7 @@
 <a href="https://ko-fi.com/nanobuntv" target="_blank"><img alt="Ko-fi Badge" src="https://img.shields.io/badge/donate-ko--fi-ff5e5b?style=flat&logo=kofi&logoColor=white&link=https%3A%2F%2Fko-fi.com%2Fnanobuntv"></a>
 </p>
 
-<p align="center"><img alt="Yeah! Thumbnail" src=".github/ReadmeThumbnail.png"/></p>
+<p align="center"><a href="https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste"><img alt="Yeah! Thumbnail" src=".github/ReadmeThumbnail.png"/></a></p>
 
 <h3 align="center">Automatically paste an image of your choosing to any text box that allows pasting an image to it, such as replying to someone on Twitter / X, whenever you use a macro or hotkey from your keyboard, mouse, Elgato Stream Deck etc.</h3>
 

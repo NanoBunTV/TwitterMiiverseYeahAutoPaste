@@ -41,11 +41,12 @@ VersionInfoProductVersion={#MyAppVersion}
 VersionInfoProductTextVersion=v{#MyAppVersion}    
 VersionInfoOriginalFileName=Setup_TwitterMiiverseYeahAutoPaste_v{#MyAppVersion}
 OutputDir=output
-SetupIconFile=setup-icon.ico
+SetupIconFile=setup-icon.ico             
+UninstallDisplayName={#MyAppName}
+UninstallDisplayIcon={uninstallexe},5   
 LicenseFile=setup-license.rtf
 InfoBeforeFile=setup-readme.rtf
 LanguageDetectionMethod=none
-UninstallDisplayIcon={uninstallexe},5
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"

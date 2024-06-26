@@ -3,18 +3,18 @@
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Twitter Miiverse Yeah! Auto Paste\par}
-{\pard \ql \f0 \sa0 \li0 \fi0 Automatically paste an image of your choosing to any text box that allows pasting an image to it, such as replying to someone on Twitter / X, whenever you use a macro or hotkey from your keyboard, mouse, Elgato Stream Deck etc.\par}
-{\pard \ql \f0 \sa0 \li0 \fi0 I made this during the Twitter trend after Elon removed publicly visible likes, where everyone started replying with different images of the Miiverse \u8220"Yeah!\u8221" button as an alternative way to publicly show their likes again.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Automatically paste an image of your choosing to any text box that allows pasting an image to it, such as replying to someone on Twitter / X, whenever you use a macro or hotkey from your keyboard, mouse, Elgato Stream Deck etc.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 I made this during the Twitter trend after Elon removed publicly visible likes, where everyone started replying with different images of the Miiverse \u8220"Yeah!\u8221" button as an alternative way to publicly show their likes again.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Requirements\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Windows 10} or newer {\i (sorry linux users)}\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Powershell 7.4} or newer {\i (will install itself during either of the installation methods below)}\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b If you are using any anti-virus software, please disable it during installation, and exclude the folder that contains these files before you re-enable the anti-virus.} This is required by the tool {\field{\*\fldinst{HYPERLINK "https://ritchielawrence.github.io/cmdow"}}{\fldrslt{\ul
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\b Windows 10} or newer {\i (sorry linux users)}\par}
+{\pard \ql \f0 \sa180 \li360 \fi-360 \bullet \tx360\tab {\b Powershell 7.4} or newer {\i (will install itself during either of the installation methods below)}\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\b If you are using any anti-virus software, please disable it during installation, and exclude the folder that contains these files before you re-enable the anti-virus.} This is required by the tool {\field{\*\fldinst{HYPERLINK "https://ritchielawrence.github.io/cmdow"}}{\fldrslt{\ul
 Cmdow
 }}}
 , which is not included in this repository, but is instead downloaded during setup. For more info about why this anti-virus exception is necessary, read {\field{\*\fldinst{HYPERLINK "https://ritchielawrence.github.io/cmdow/#is-cmdow-malware"}}{\fldrslt{\ul
 this
 }}}
-.\sa180\par}
+.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u9654 ? {\b Automatic Installation} \u9664 ?\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 1.\tx360\tab {\b Download and run the setup.exe from {\field{\*\fldinst{HYPERLINK "https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste/releases/latest"}}{\fldrslt{\ul
 the latest release
@@ -69,22 +69,4 @@ MIT License
 contact@nanobun.tv
 }}}
  with clear proof that you are the owner of the content and the reason it needs to be removed.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Somewhat \u8220"Manual\u8221" Installation\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 If you don\u8217't trust, or otherwise don\u8217't want to use setup.exe (which you can view the source code for, at {\f1 inno-setup\\setup.iss}), this is how to get stuff working without using it.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 1.\tx360\tab Download the source code from {\field{\*\fldinst{HYPERLINK "https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste/releases/latest"}}{\fldrslt{\ul
-the latest release
-}}}
-, or by clicking the green \u8220"Code\u8221" button {\field{\*\fldinst{HYPERLINK "https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste"}}{\fldrslt{\ul
-on the main repository page
-}}}
-.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 2.\tx360\tab Extract the source code into a new folder, one that you don\u8217't plan to change the name and/or location of at any point.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 3.\tx360\tab Navigate to {\f1 _Main\\TOOLS\\SETUP} and run {\f1 _1st_ Install Latest Powershell.bat}.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 4.\tx360\tab Run {\f1 _2nd_ WD Exception Setup.bat} in that same SETUP folder.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 5.\tx360\tab Create a keybind using your preferred macro software that runs a batch fine in the folder that was installed, at {\f1 [USER]\\Documents\\Twitter Miiverse Yeah! Auto Paste} by default. Your keyboard or mouse manufacturer may have a hotkey/macro software, or you can find some tool online, or buy an Elgato Stream Deck, or use literally ANY software or tool that can execute a file.\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 6.\tx360\tab Replace any PNG in the main folder with whatever image you want to use instead! The script is specifically expecting a file named {\f1 yeah0.png}, but obviously with a different number at the end (if you need a good file conversion software, check out {\field{\*\fldinst{HYPERLINK "https://file-converter.io"}}{\fldrslt{\ul
-this open source file converter tool
-}}}
-, it\u8217's really good).\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 7.\tx360\tab If you want to have more than three hotkeys so you can use all your favorite Yeah! reaction images, run {\f1 CREATE Additional Script.bat} in the TOOLS folder.\sa180\par}
 }

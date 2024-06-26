@@ -61,3 +61,6 @@ Filename: "pwsh"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File .\WDExce
 [UninstallRun]
 Filename: "pwsh"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File .\UninstallCleanupNoConfirm.ps1"; WorkingDir: "{app}\assets"; Flags: shellexec waituntilterminated runhidden
 Filename: "pwsh"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File .\DeleteAllBatchAndPSFiles.ps1"; WorkingDir: "{app}\assets\reset-stuff"; Flags: shellexec waituntilterminated runhidden
+
+[UninstallDelete]
+Type: filesandordirs; Name: "{app}\assets\temp-install"

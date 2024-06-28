@@ -9,7 +9,7 @@
 
 <p align="center"><a href="https://github.com/NanoBunTV/TwitterMiiverseYeahAutoPaste"><img alt="Yeah! Thumbnail" src=".github/ReadmeThumbnail.png"/></a></p>
 
-<h2 align="center">Automatically paste an image of your choosing to any text box that allows pasting an image to it, such as replying to someone on Twitter / X</h2>
+<h2 align="center">Automatically paste an image of your choosing to any text box that allows pasting an image to it, such as Tweeting on "X" (fk u elon) or replying to someone on Discord.</h2>
 
 <h3 align="center">Requires a macro/hotkey software.<h3>
 

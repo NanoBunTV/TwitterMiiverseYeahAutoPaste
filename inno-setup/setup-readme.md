@@ -1,6 +1,6 @@
 # Twitter Miiverse Yeah! Auto Paste
 
-## Automatically paste an image of your choosing to any text box that allows pasting an image to it, such as replying to someone on Twitter / X
+## Automatically paste an image of your choosing to any text box that allows pasting an image to it, such as Tweeting on "X" (fk u elon) or replying to someone on Discord.
 
 ### Requires a macro/hotkey software.
 

@@ -1,5 +1,0 @@
-Any files in this folder could screw up some things if you don't know what you're doing!
-
-Didn't your parents ever warn you not to go around double-clicking random scripts?
-
-I mean, do whatever the hell you want, so long as you're fine with breaking shit. ¯\_(ツ)_/¯
